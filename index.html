@@ -1,0 +1,179 @@
+<!-- DARK RIDERS CYSCOM HACKATHON PROJECT: TECHADEMY -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techademy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+Mono:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Techademy</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About Us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Join us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO-->
+    <div class="hero" id="home">
+      <video autoplay muted loop class="back-video">
+        <source src="BG1.mp4" type="video/mp4">
+      </video>
+      <div class="hero__container">
+        <h1 class="hero__heading">India's first <span>VR</span> tech learning platform</h1>
+        <p class="hero__description">because tech is for everyone.</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We bring technology closer to you.</h2>
+          <p>"Any sufficiently advanced technology is equivalent to magic".
+            <p class="arthur">- Arthur C. Clarke</p>
+            <p>We've come so far as humans, from making fires using rocks and
+              sticks to automatic fire extinguishers and we think everybody
+              deserves to experience the magic :)<br><br>We understand the
+              importance of visual learning, so we help you with tech using VR.
+              Also, what's better way to learn tech than learning with cutting
+              edge technology, right!.</p>
+            <p>Contact us to learn more.</p>
+          <button class="main__btn"><a href="#">Contact us</a></button>
+        </div>
+        <div class="hana">
+          <img src="hana.png" alt="hana">
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE -->
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card" style="background-image: url('bgimage1.jpg');">
+          <h2>Live Classes</h2>
+          <p>Learn together 👨‍🎓</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card" style="background-image: url('bgimage2.jpg');">
+          <h2>1 on 1 sessions</h2>
+          <p>Personalized teaching at its peak teacher 👩‍🏫</p>
+          <div class="services__btn"><button>Let's go!</button></div>
+        </div>
+        <div class="services__card" style="background-image: url('bgimage3.jpg');">
+          <h2>Pre-recorded tutorials</h2>
+          <p>If you want to refer or something 🤔</p>
+          <div class="services__btn"><button>Watch now</button></div>
+        </div>
+        <div class="services__card" style="background-image: url('bgimage4.jpg');">
+          <h2>Ask Doubts</h2>
+          <p>We are 24/7 available here! 😊</p>
+          <div class="services__btn"><button>Ask</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGN UP -->
+    <div class="main-last" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join us</h1>
+          <h2>Register today</h2>
+          <p>Download the app and register now!.</p>
+          <button class="main__btn"><a href="#">Register</a></button>
+          <button class="main__btn"><a href="#"> Get it on iOS</a></button>
+          <button class="main__btn"><a href="#"> Get it on Android</a></button>
+        </div>
+
+        <div class="main__img--container">
+          <img src="iphone6.png" alt="iphone6 photo">
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support us</a>
+            <a href="/">Customer service</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>FAQs</h2>
+            <a href="/">Ask a question</a> <a href="/">FAQs</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Techademy</a>
+          </div>
+          <p class="website__rights">© Techademy 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
